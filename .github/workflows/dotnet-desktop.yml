@@ -52,4 +52,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: M-Centers-8.0 x86
-        path: D:\a\M-Centers-8.0\M-Centers-8.0\MCenters\bin\Release
+        path: D:\a\M-Centers-8.0\M-Centers-8.0\MCenters\bin\Debug
