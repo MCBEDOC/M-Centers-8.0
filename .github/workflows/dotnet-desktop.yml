@@ -2,7 +2,7 @@ name: M Centers 8.0
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "Cubebanyasz's-fix" ]
   pull_request:
     branches: [ "master" ]
 
