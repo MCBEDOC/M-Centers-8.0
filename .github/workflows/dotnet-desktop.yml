@@ -23,7 +23,7 @@ jobs:
       run: nuget restore "M Centers 8.0.sln"
 
     - name: Build M Centers (x64)
-      run: msbuild MCenters/MCenters.csproj /p:Configuration=Debug /p:Platform=x64
+      run: msbuild MCenters/MCenters.csproj /p:Platform=x64
       
     - name: Publish M Centers (x64)
       uses: actions/upload-artifact@v4
@@ -46,7 +46,7 @@ jobs:
       run: nuget restore "M Centers 8.0.sln"
 
     - name: Build M Centers (x86)
-      run: msbuild MCenters/MCenters.csproj /p:Configuration=Release /p:Platform=x86 /t:Rebuild
+      run: msbuild MCenters/MCenters.csproj /p:Platform=x86 /t:Rebuild
 
     - name: Publish M Centers (x86)
       uses: actions/upload-artifact@v4
